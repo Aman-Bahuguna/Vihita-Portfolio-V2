@@ -1,0 +1,41 @@
+.section {
+  padding-block: var(--landing-section-space);
+  background: var(--landing-bg);
+  color: var(--landing-text);
+  border-top: 1px solid var(--landing-line);
+}
+.layout { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: var(--space-9); }
+.kicker { display: flex; align-items: center; gap: var(--space-3); color: var(--landing-muted); }
+.kicker svg { width: var(--space-5); height: var(--space-5); color: var(--landing-accent-text); }
+.title { font-size: var(--landing-display); margin-top: var(--space-6); }
+.title > span { color: var(--landing-accent-text); }
+.description { color: var(--landing-muted); max-width: 36ch; margin-top: var(--space-5); }
+.hint { display: flex; align-items: center; gap: var(--space-3); margin-top: var(--space-7); font-size: small; }
+.hint > span { width: var(--space-2); height: var(--space-2); background: var(--landing-accent); border-radius: var(--radius-pill); flex-shrink: 0; }
+.blueprint { min-width: 0; }
+.planLabel { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); color: var(--landing-muted); font-size: small; padding-block: var(--space-4); }
+.planLabel svg { width: var(--space-5); height: var(--space-5); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2); padding: var(--space-2); border: 1px solid var(--landing-line); position: relative; }
+.grid::after { content: ''; position: absolute; top: 50%; left: 50%; width: var(--space-5); height: var(--space-5); border: 1px solid var(--landing-line); background: var(--landing-bg); transform: translate(-50%, -50%) rotate(45deg); pointer-events: none; }
+.room { display: flex; flex-direction: column; padding: var(--space-5); background: var(--landing-panel); color: var(--landing-text); border: 1px solid var(--landing-line); transition: background 200ms, color 200ms; }
+.room:first-child { background: var(--landing-accent); color: var(--landing-accent-ink); }
+.room:nth-child(2) { background: var(--landing-paper); color: var(--landing-accent-ink); }
+.roomTop { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); font-size: small; opacity: .75; }
+.roomTop svg { width: var(--space-5); height: var(--space-5); transition: transform 200ms var(--ease-out); }
+.roomName { font-size: clamp(1.25rem, 2.2vw, 2rem); font-weight: 550; letter-spacing: -.04em; line-height: 1.15; margin-top: var(--space-7); }
+.roomNote { font-size: small; line-height: 1.5; margin-top: var(--space-2); opacity: .8; }
+.room:hover { background: var(--landing-accent); color: var(--landing-accent-ink); }
+.room:hover .roomTop svg { transform: translate(var(--space-1), calc(-1 * var(--space-1))); }
+.room:focus-visible { outline: 2px solid var(--landing-accent-text); outline-offset: var(--space-1); }
+@media (max-width: 850px) {
+  .layout { grid-template-columns: 1fr; gap: var(--space-7); }
+  .description { max-width: 48ch; }
+  .hint { margin-top: var(--space-5); }
+}
+@media (max-width: 450px) {
+  .room { padding: var(--space-4); }
+  .roomName { margin-top: var(--space-6); }
+}
+@media (prefers-reduced-motion: reduce) { :global(html:not([data-motion='full'])) .room, :global(html:not([data-motion='full'])) .roomTop svg { transition: none; } }
+:global([data-motion='reduced']) .room,
+:global([data-motion='reduced']) .roomTop svg { transition: none; }

@@ -1,0 +1,13 @@
+.screen {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow: hidden;
+  pointer-events: none;
+  view-transition-name: theme-arch-line;
+  color: var(--theme-arch-night-ink);
+}
+.screen[hidden] { display: none; }
+.screen[data-destination='light'] { color: var(--theme-arch-day-ink); }
+.drawing { display: block; width: 100%; height: 100%; overflow: visible; }
+.arch { stroke: currentColor; stroke-width: var(--theme-arch-stroke); stroke-linecap: round; stroke-linejoin: round; }

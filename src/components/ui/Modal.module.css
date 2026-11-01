@@ -1,0 +1,6 @@
+.modal { width: min(1200px, 94vw); max-width: none; max-height: 94svh; padding: var(--space-5); border: 1px solid var(--line); background: var(--cream); color: var(--ink); overflow-y: auto; overscroll-behavior: contain; }
+.modal::backdrop { background: #1c271ee8; }
+.modalHeader { display: flex; align-items: center; justify-content: space-between; gap: var(--space-5); padding-bottom: var(--space-4); }
+.modalHeader > p { font-size: 8px; }
+.modalHeader > button { min-height: 36px; width: 36px; }
+@media (max-width: 650px) { .modal { padding: var(--space-3); width: 96vw; } }

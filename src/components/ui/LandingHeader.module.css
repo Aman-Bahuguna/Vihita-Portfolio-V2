@@ -1,0 +1,46 @@
+.header { position: fixed; inset: 0 0 auto; z-index: 100; color: var(--landing-text); background: var(--landing-bg); border-bottom: 1px solid var(--landing-line); }
+.header :focus-visible { outline-color: var(--landing-accent-text); }
+.inner { max-width: var(--page-width); margin-inline: auto; padding-inline: var(--gutter); height: 96px; display: flex; align-items: center; gap: 45px; transition: height 250ms var(--ease-out); }
+.scrolled .inner { height: 76px; }
+.brand { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.brandMark { width: 40px; height: 47px; display: grid; place-items: center; color: var(--landing-accent); }
+.brandMark > img { height: 44px; width: 35px; object-fit: contain; transition: transform 400ms var(--ease-out); }
+.brand:hover .brandMark > img { transform: translateY(-2px); }
+.wordmark { display: flex; flex-direction: column; gap: 5px; align-items: flex-start; }
+.wordmark > strong { font-size: 25px; font-weight: 650; line-height: .9; letter-spacing: -.055em; }
+.wordmark > span { font-size: 9px; letter-spacing: .36em; margin-left: 1px; line-height: 1; }
+.nav { display: flex; gap: 34px; align-items: center; margin-left: auto; position: relative; }
+.nav > a { display: block; padding-block: 16px; font-size: 14px; color: var(--landing-muted); transition: color 200ms; }
+.nav > a:hover, .nav > a:focus-visible { color: var(--landing-text); }
+.rollingText { display: block; height: 21px; line-height: 21px; overflow: hidden; }
+.rollingText > span { display: block; transition: transform 400ms var(--ease-out); }
+.nav > a:hover .rollingText > span { transform: translateY(-100%); }
+.navMarker { position: absolute; bottom: 7px; left: 0; width: 1px; height: 2px; background: var(--landing-accent); opacity: 0; transform-origin: left; pointer-events: none; }
+.contactLink { display: flex; align-items: center; justify-content: space-between; gap: 33px; height: 43px; padding-inline: 19px; background: var(--landing-accent); color: var(--landing-accent-ink); font-size: 14px; font-weight: 550; }
+.linkArrow { position: relative; width: 20px; height: 20px; display: block; overflow: hidden; }
+.linkArrow > svg { position: absolute; inset: 0; transition: transform 400ms var(--ease-out); }
+.linkArrow > svg:last-child { transform: translate(-21px,21px); }
+.contactLink:hover .linkArrow > svg:first-child { transform: translate(21px,-21px); }
+.contactLink:hover .linkArrow > svg:last-child { transform: translate(0,0); }
+.pageProgress { position: absolute; bottom: -1px; left: 0; width: 100%; height: 2px; background: var(--landing-accent); transform: scaleX(0); transform-origin: left; pointer-events: none; }
+.menuToggle { display: none; }
+.menu { position: fixed; top: 76px; left: 0; bottom: 0; right: 0; padding: 35px var(--gutter) 45px; background: var(--landing-bg); overflow: auto; overscroll-behavior: contain; display: flex; flex-direction: column; justify-content: space-between; gap: 50px; border-top: 1px solid var(--landing-line); }
+.menu > nav { display: flex; flex-direction: column; }
+.menu > nav > a { padding-block: 22px; border-bottom: 1px solid var(--landing-line); font-size: clamp(28px,6vw,48px); line-height: 1; letter-spacing: -.05em; display: flex; align-items: center; justify-content: space-between; gap: 25px; }
+.menu > nav > a:last-child { color: var(--landing-accent-text); }
+.menu > nav > a > svg { width: 30px; height: 30px; }
+.menuBottom { display: flex; flex-direction: column; gap: 20px; font-size: 14px; }
+.menuBottom > p { color: var(--landing-muted); font-size: 13px; }
+.menuBottom > button { background: var(--landing-panel); color: var(--landing-text); border-radius: 0; justify-content: space-between; padding: 12px 15px; min-height: 45px; }
+@media (max-width: 1100px) { .inner { gap: 25px; } .nav { gap: 24px; }.nav > a { font-size: 13px; }.contactLink { font-size: 13px; gap: 24px; } }
+@media (max-width: 850px) {
+  .inner { height: 76px; }
+  .nav, .contactLink { display: none; }
+  .themeToggle { margin-left: auto; }
+  .menuToggle { display: inline-flex; padding: 0; width: 42px; min-height: 42px; border: 1px solid var(--landing-line); border-radius: 0; background: transparent; color: var(--landing-text); }
+  .menuToggle:hover { background: var(--landing-panel); }
+  .brandMark { width: 30px; height: 38px; }.brandMark > img { height: 36px; width: 29px; }
+  .wordmark > strong { font-size: 24px; }.wordmark > span { font-size: 8px; }
+}
+@media (max-width: 650px) { .inner { gap: var(--space-3); } }
+@media (prefers-reduced-motion: reduce) { :global(html:not([data-motion='full'])) .rollingText > span { transition: none; } }

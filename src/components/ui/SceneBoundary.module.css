@@ -1,0 +1,4 @@
+.fallback { height: 100%; min-height: 350px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-5); text-align: center; padding: var(--space-6); }
+.fallback > svg { width: 65px; height: 85px; }
+.fallback > p:first-of-type { font-family: var(--font-display); font-size: 38px; }
+.fallback > p:last-of-type { font-size: 7px; line-height: 1.8; }

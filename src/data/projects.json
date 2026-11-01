@@ -1,0 +1,1204 @@
+[
+  {
+    "slug": "abhishek-residence",
+    "title": "The Abhishek residence",
+    "category": "residential",
+    "scope": "Residential renovation",
+    "description": "Designed a refined residential interior covering the living, drawing, porch, and mandir areas, blending warm tones, elegant finishes, and contemporary detailing for a cohesive and inviting aesthetic.",
+    "status": "rendered",
+    "images": [
+      {
+        "src": "/assets/abhishek-residence-01.webp",
+        "thumb": "/assets/abhishek-residence-01-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 1",
+        "width": 1571,
+        "height": 1001,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.24 PM.jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-02.webp",
+        "thumb": "/assets/abhishek-residence-02-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 2",
+        "width": 1554,
+        "height": 1012,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.29 PM.jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-03.webp",
+        "thumb": "/assets/abhishek-residence-03-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 3",
+        "width": 1585,
+        "height": 992,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM (1).jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-04.webp",
+        "thumb": "/assets/abhishek-residence-04-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 4",
+        "width": 1600,
+        "height": 954,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM (2).jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-05.webp",
+        "thumb": "/assets/abhishek-residence-05-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 5",
+        "width": 1429,
+        "height": 899,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM (3).jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-06.webp",
+        "thumb": "/assets/abhishek-residence-06-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 6",
+        "width": 1429,
+        "height": 916,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM (4).jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-07.webp",
+        "thumb": "/assets/abhishek-residence-07-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 7",
+        "width": 1086,
+        "height": 1448,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM (5).jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-08.webp",
+        "thumb": "/assets/abhishek-residence-08-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 8",
+        "width": 1600,
+        "height": 945,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM (6).jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-09.webp",
+        "thumb": "/assets/abhishek-residence-09-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 9",
+        "width": 1600,
+        "height": 907,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM (7).jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-10.webp",
+        "thumb": "/assets/abhishek-residence-10-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 10",
+        "width": 1408,
+        "height": 1117,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM (8).jpeg"
+      },
+      {
+        "src": "/assets/abhishek-residence-11.webp",
+        "thumb": "/assets/abhishek-residence-11-thumb.webp",
+        "alt": "The Abhishek residence — supplied interior visualization, view 11",
+        "width": 1576,
+        "height": 998,
+        "source": "Projects/Commercial/Abhishek/Renders/WhatsApp Image 2026-10-27 at 6.28.30 PM.jpeg"
+      }
+    ],
+    "drawings": [
+      {
+        "title": "ABHISHEK JI BOUNDARY WALL-EXISTING",
+        "pdf": "/assets/abhishek-residence-drawing-01.pdf",
+        "preview": "/assets/abhishek-residence-drawing-01.webp"
+      },
+      {
+        "title": "ABHISHEK JI BOUNDARY WALL-NEW",
+        "pdf": "/assets/abhishek-residence-drawing-02.pdf",
+        "preview": "/assets/abhishek-residence-drawing-02.webp"
+      },
+      {
+        "title": "ABHISHEK JI DIMENSIONED LAYOUT",
+        "pdf": "/assets/abhishek-residence-drawing-03.pdf",
+        "preview": "/assets/abhishek-residence-drawing-03.webp"
+      },
+      {
+        "title": "ABHISHEK JI FURNITURE LAYOUT",
+        "pdf": "/assets/abhishek-residence-drawing-04.pdf",
+        "preview": "/assets/abhishek-residence-drawing-04.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/Abhishek",
+    "hotspots": [
+      {
+        "x": 25,
+        "y": 61,
+        "title": "A place to gather",
+        "description": "A cohesive living and drawing area, brought together by a warm, refined palette."
+      },
+      {
+        "x": 66,
+        "y": 35,
+        "title": "Contemporary detailing",
+        "description": "Layered wall detailing and elegant finishes frame the room."
+      }
+    ],
+    "comparison": {
+      "before": "/assets/abhishek-residence-drawing-01.webp",
+      "after": "/assets/abhishek-residence-drawing-02.webp",
+      "beforeLabel": "Existing boundary wall",
+      "afterLabel": "Proposed boundary wall"
+    }
+  },
+  {
+    "slug": "cloth-shop",
+    "title": "Cloth shop",
+    "category": "commercial",
+    "scope": "Retail planning",
+    "description": "Retail furniture layout showing the shop floor, display walls, counter, trial room, and entrance. Explore the updated PDF for the supplied layout and dimensions.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Cloth shop — furniture layout",
+        "pdf": "/assets/cloth-shop-drawing-01.pdf",
+        "preview": "/assets/cloth-shop-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/CLOTH SHOP",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "dc-bond-office",
+    "title": "DC Bond office",
+    "category": "commercial",
+    "scope": "Workplace design",
+    "description": "Designed a modern, functional office featuring efficient workstations, refined executive spaces, warm finishes, and integrated lighting for a clean, sophisticated professional aesthetic.",
+    "status": "rendered",
+    "images": [
+      {
+        "src": "/assets/dc-bond-office-01.webp",
+        "thumb": "/assets/dc-bond-office-01-thumb.webp",
+        "alt": "DC Bond office — supplied interior visualization, view 1",
+        "width": 1475,
+        "height": 1066,
+        "source": "Projects/Commercial/DC Bond/Renders/WhatsApp Image 2026-10-27 at 10.58.43 PM (1).jpeg"
+      },
+      {
+        "src": "/assets/dc-bond-office-02.webp",
+        "thumb": "/assets/dc-bond-office-02-thumb.webp",
+        "alt": "DC Bond office — supplied interior visualization, view 2",
+        "width": 1369,
+        "height": 1149,
+        "source": "Projects/Commercial/DC Bond/Renders/WhatsApp Image 2026-10-27 at 10.58.43 PM (2).jpeg"
+      },
+      {
+        "src": "/assets/dc-bond-office-03.webp",
+        "thumb": "/assets/dc-bond-office-03-thumb.webp",
+        "alt": "DC Bond office — supplied interior visualization, view 3",
+        "width": 1028,
+        "height": 1530,
+        "source": "Projects/Commercial/DC Bond/Renders/WhatsApp Image 2026-10-27 at 10.58.43 PM.jpeg"
+      },
+      {
+        "src": "/assets/dc-bond-office-04.webp",
+        "thumb": "/assets/dc-bond-office-04-thumb.webp",
+        "alt": "DC Bond office — supplied interior visualization, view 4",
+        "width": 1547,
+        "height": 1017,
+        "source": "Projects/Commercial/DC Bond/Renders/WhatsApp Image 2026-10-27 at 10.58.44 PM (1).jpeg"
+      },
+      {
+        "src": "/assets/dc-bond-office-05.webp",
+        "thumb": "/assets/dc-bond-office-05-thumb.webp",
+        "alt": "DC Bond office — supplied interior visualization, view 5",
+        "width": 1600,
+        "height": 900,
+        "source": "Projects/Commercial/DC Bond/Renders/WhatsApp Image 2026-10-27 at 10.58.44 PM.jpeg"
+      }
+    ],
+    "drawings": [
+      {
+        "title": "DC BOND FURNITURE LAYOUT",
+        "pdf": "/assets/dc-bond-office-drawing-01.pdf",
+        "preview": "/assets/dc-bond-office-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/DC Bond",
+    "hotspots": [
+      {
+        "x": 70,
+        "y": 51,
+        "title": "Executive space",
+        "description": "Refined executive areas balance a professional aesthetic with warmth."
+      },
+      {
+        "x": 35,
+        "y": 28,
+        "title": "Integrated lighting",
+        "description": "Lighting is integrated into the architectural detailing, as described in the project brief."
+      }
+    ]
+  },
+  {
+    "slug": "dusker-ai",
+    "title": "Dusker AI",
+    "category": "commercial",
+    "scope": "Workplace interiors",
+    "description": "A contemporary workplace interior with reception, executive offices, shared workstations, meeting and conference rooms, pantry spaces, and a washroom. A warm neutral palette, black-framed glass partitions, refined cabinetry, and integrated lighting connect the spaces.",
+    "status": "rendered",
+    "images": [
+      {
+        "src": "/assets/dusker-ai-01.webp",
+        "thumb": "/assets/dusker-ai-01-thumb.webp",
+        "alt": "Dusker AI — executive cabin with a sculptural desk, grey seating, illuminated shelving, and a zigzag pendant",
+        "width": 1053,
+        "height": 1111,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4447.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-02.webp",
+        "thumb": "/assets/dusker-ai-02-thumb.webp",
+        "alt": "Dusker AI — office pantry with grey cabinetry, a marble-look backsplash, warm shelf lighting, and a beverage fridge",
+        "width": 1375,
+        "height": 1144,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4448.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-03.webp",
+        "thumb": "/assets/dusker-ai-03-thumb.webp",
+        "alt": "Dusker AI — reception desk with fluted detailing, curved lounge chairs, and dark stone wall panels",
+        "width": 1245,
+        "height": 1080,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4445.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-04.webp",
+        "thumb": "/assets/dusker-ai-04-thumb.webp",
+        "alt": "Dusker AI — reception entrance with black-framed glass partitions, soft white seating, and branded signage",
+        "width": 1151,
+        "height": 1080,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4444.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-05.webp",
+        "thumb": "/assets/dusker-ai-05-thumb.webp",
+        "alt": "Dusker AI — washroom with a floating vanity, tall rounded mirror, wall-mounted toilet, and illuminated niches",
+        "width": 988,
+        "height": 1067,
+        "source": "Projects/Commercial/Dusker AI/Renders/c63c86ac-6325-494e-a382-13b50708cd70.jpg"
+      },
+      {
+        "src": "/assets/dusker-ai-06.webp",
+        "thumb": "/assets/dusker-ai-06-thumb.webp",
+        "alt": "Dusker AI — conference room with a glossy black table, grey chairs, wall display, and rectangular pendant light",
+        "width": 1254,
+        "height": 1254,
+        "source": "Projects/Commercial/Dusker AI/Renders/4df36e39-199c-4db7-ae60-63475f2305a5.jpg"
+      },
+      {
+        "src": "/assets/dusker-ai-07.webp",
+        "thumb": "/assets/dusker-ai-07-thumb.webp",
+        "alt": "Dusker AI — two-seat workspace with a black desktop, cream wall panelling, and a glass partition",
+        "width": 1600,
+        "height": 959,
+        "source": "Projects/Commercial/Dusker AI/Renders/989c2ec0-a4b9-4999-9004-ad53cc7ae68c.jpg"
+      },
+      {
+        "src": "/assets/dusker-ai-08.webp",
+        "thumb": "/assets/dusker-ai-08-thumb.webp",
+        "alt": "Dusker AI — executive office with branded wall signage, illuminated display shelves, and a wave-shaped pendant",
+        "width": 1448,
+        "height": 1086,
+        "source": "Projects/Commercial/Dusker AI/Renders/cc362c21-e77b-4414-b7e7-39758ece21a6.jpg"
+      },
+      {
+        "src": "/assets/dusker-ai-09.webp",
+        "thumb": "/assets/dusker-ai-09-thumb.webp",
+        "alt": "Dusker AI — conference table facing full-height windows with city views and warm recessed lighting",
+        "width": 1254,
+        "height": 1254,
+        "source": "Projects/Commercial/Dusker AI/Renders/cf951e17-ced7-4c8f-a767-818506962244.jpg"
+      },
+      {
+        "src": "/assets/dusker-ai-10.webp",
+        "thumb": "/assets/dusker-ai-10-thumb.webp",
+        "alt": "Dusker AI — compact coffee pantry beside a window with timber cabinetry, a sink, and warm under-cabinet lighting",
+        "width": 1048,
+        "height": 1501,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4463.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-11.webp",
+        "thumb": "/assets/dusker-ai-11-thumb.webp",
+        "alt": "Dusker AI — shared workstations with timber desktops, white drawer units, mesh chairs, and dark glass partitions",
+        "width": 1600,
+        "height": 813,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4453.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-12.webp",
+        "thumb": "/assets/dusker-ai-12-thumb.webp",
+        "alt": "Dusker AI — long workstation wall with desktop computers, an illuminated display shelf, and teamwork lettering",
+        "width": 1600,
+        "height": 704,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4452.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-13.webp",
+        "thumb": "/assets/dusker-ai-13-thumb.webp",
+        "alt": "Dusker AI — six-seat meeting room with a white table, wall-mounted screen, motivational lettering, and a wave-shaped pendant",
+        "width": 1600,
+        "height": 1064,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4451.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-14.webp",
+        "thumb": "/assets/dusker-ai-14-thumb.webp",
+        "alt": "Dusker AI — front view of the meeting room with black mesh chairs, a white table, and a black-framed glass partition",
+        "width": 1430,
+        "height": 1032,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4450.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-15.webp",
+        "thumb": "/assets/dusker-ai-15-thumb.webp",
+        "alt": "Dusker AI — meeting room facing the presentation screen, with fluted table bases and glazed partition walls",
+        "width": 1113,
+        "height": 1023,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4449.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-16.webp",
+        "thumb": "/assets/dusker-ai-16-thumb.webp",
+        "alt": "Dusker AI — private office with a white desk, grey visitor chairs, timber wall detailing, and illuminated display shelves",
+        "width": 1452,
+        "height": 1083,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4458.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-17.webp",
+        "thumb": "/assets/dusker-ai-17-thumb.webp",
+        "alt": "Dusker AI — private cabin with a sculptural white desk, zigzag pendant light, framed artwork, and a dark glass backdrop",
+        "width": 1254,
+        "height": 1254,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4457.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-18.webp",
+        "thumb": "/assets/dusker-ai-18-thumb.webp",
+        "alt": "Dusker AI — angled view of the open workspace with computer stations, teamwork wall lettering, and dark glass partitions",
+        "width": 1600,
+        "height": 900,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4456.PNG"
+      },
+      {
+        "src": "/assets/dusker-ai-19.webp",
+        "thumb": "/assets/dusker-ai-19-thumb.webp",
+        "alt": "Dusker AI — shared office with wraparound timber worktops, mesh task chairs, white storage drawers, and warm shelf lighting",
+        "width": 1600,
+        "height": 900,
+        "source": "Projects/Commercial/Dusker AI/Renders/IMG_4455.PNG"
+      }
+    ],
+    "drawings": [],
+    "sourceFolder": "Projects/Commercial/Dusker AI"
+  },
+  {
+    "slug": "sanganer-gym",
+    "title": "Sanganer gym",
+    "category": "commercial",
+    "scope": "Fitness space planning",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "SANGANER GYM",
+        "pdf": "/assets/sanganer-gym-drawing-01.pdf",
+        "preview": "/assets/sanganer-gym-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/SANGANER GYM"
+  },
+  {
+    "slug": "shailesh-office",
+    "title": "Shailesh Ji office",
+    "category": "commercial",
+    "scope": "Office planning",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Shailesh Ji Office",
+        "pdf": "/assets/shailesh-office-drawing-01.pdf",
+        "preview": "/assets/shailesh-office-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/Shailesh Ji Office-Model"
+  },
+  {
+    "slug": "tushar-kitchen",
+    "title": "The Tushar kitchen",
+    "category": "residential",
+    "scope": "Kitchen renovation",
+    "description": "Designed a modern, functional kitchen featuring sleek cabinetry, marble finishes, and warm integrated lighting for a clean, elegant aesthetic.",
+    "status": "rendered",
+    "images": [
+      {
+        "src": "/assets/tushar-kitchen-01.webp",
+        "thumb": "/assets/tushar-kitchen-01-thumb.webp",
+        "alt": "The Tushar kitchen — supplied interior visualization, view 1",
+        "width": 1215,
+        "height": 1600,
+        "source": "Projects/Commercial/Tushar/Render/Copy of IMG-20260727-WA0008.jpg.jpeg"
+      },
+      {
+        "src": "/assets/tushar-kitchen-02.webp",
+        "thumb": "/assets/tushar-kitchen-02-thumb.webp",
+        "alt": "The Tushar kitchen — supplied interior visualization, view 2",
+        "width": 947,
+        "height": 1538,
+        "source": "Projects/Commercial/Tushar/Render/IMG-20261021-WA0001.jpg.jpeg"
+      },
+      {
+        "src": "/assets/tushar-kitchen-03.webp",
+        "thumb": "/assets/tushar-kitchen-03-thumb.webp",
+        "alt": "The Tushar kitchen — supplied interior visualization, view 3",
+        "width": 900,
+        "height": 1600,
+        "source": "Projects/Commercial/Tushar/Render/a4c91903-2306-4e06-8980-9c86b85a4d32.jpg.jpeg"
+      }
+    ],
+    "drawings": [
+      {
+        "title": "TUSHARJI KITCHEN ELEVATION-5",
+        "pdf": "/assets/tushar-kitchen-drawing-01.pdf",
+        "preview": "/assets/tushar-kitchen-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/Tushar"
+  },
+  {
+    "slug": "vaibhav-soni-residence",
+    "title": "The Vaibhav Soni residence",
+    "category": "residential",
+    "scope": "Residential renovation",
+    "description": "Transformed the living room and washroom into elegant, contemporary spaces through refined materials, warm tones, and functional design.",
+    "status": "rendered",
+    "images": [
+      {
+        "src": "/assets/vaibhav-soni-residence-01.webp",
+        "thumb": "/assets/vaibhav-soni-residence-01-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 1",
+        "width": 1231,
+        "height": 1231,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.41 PM.jpeg"
+      },
+      {
+        "src": "/assets/vaibhav-soni-residence-02.webp",
+        "thumb": "/assets/vaibhav-soni-residence-02-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 2",
+        "width": 1105,
+        "height": 1247,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.43 PM (1).jpeg"
+      },
+      {
+        "src": "/assets/vaibhav-soni-residence-03.webp",
+        "thumb": "/assets/vaibhav-soni-residence-03-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 3",
+        "width": 1152,
+        "height": 1140,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.43 PM.jpeg"
+      },
+      {
+        "src": "/assets/vaibhav-soni-residence-04.webp",
+        "thumb": "/assets/vaibhav-soni-residence-04-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 4",
+        "width": 1105,
+        "height": 1198,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.45 PM (1).jpeg"
+      },
+      {
+        "src": "/assets/vaibhav-soni-residence-05.webp",
+        "thumb": "/assets/vaibhav-soni-residence-05-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 5",
+        "width": 856,
+        "height": 927,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.45 PM (2).jpeg"
+      },
+      {
+        "src": "/assets/vaibhav-soni-residence-06.webp",
+        "thumb": "/assets/vaibhav-soni-residence-06-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 6",
+        "width": 1391,
+        "height": 917,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.45 PM (3).jpeg"
+      },
+      {
+        "src": "/assets/vaibhav-soni-residence-07.webp",
+        "thumb": "/assets/vaibhav-soni-residence-07-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 7",
+        "width": 1273,
+        "height": 917,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.45 PM (4).jpeg"
+      },
+      {
+        "src": "/assets/vaibhav-soni-residence-08.webp",
+        "thumb": "/assets/vaibhav-soni-residence-08-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 8",
+        "width": 1271,
+        "height": 1368,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.45 PM (5).jpeg"
+      },
+      {
+        "src": "/assets/vaibhav-soni-residence-09.webp",
+        "thumb": "/assets/vaibhav-soni-residence-09-thumb.webp",
+        "alt": "The Vaibhav Soni residence — supplied interior visualization, view 9",
+        "width": 1539,
+        "height": 1022,
+        "source": "Projects/Commercial/Vaibhav Soni/Renders/WhatsApp Image 2026-10-27 at 6.16.45 PM.jpeg"
+      }
+    ],
+    "drawings": [
+      {
+        "title": "VAIBHAV SONI JI LIVING ROOM FURNITURE LAYOUT",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-01.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-01.webp"
+      },
+      {
+        "title": "VAIBHAV SONI JI PLUMBING LAYOUT",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-02.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-02.webp"
+      },
+      {
+        "title": "VAIBHAV SONI JI WASHROOM ELECTRICAL LAYOUT",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-03.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-03.webp"
+      },
+      {
+        "title": "VAIBHAV SONI JI WASHROOM ELEVATIONS 1",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-04.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-04.webp"
+      },
+      {
+        "title": "VAIBHAV SONI JI WASHROOM ELEVATIONS 2",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-05.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-05.webp"
+      },
+      {
+        "title": "VAIBHAV SONI JI WASHROOM LAYOUT",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-06.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-06.webp"
+      },
+      {
+        "title": "Vaibhav soni ji LIVING ROOM 1",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-07.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-07.webp"
+      },
+      {
+        "title": "Vaibhav soni ji LIVING ROOM 2",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-08.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-08.webp"
+      },
+      {
+        "title": "Vaibhav soni ji LIVING ROOM 3",
+        "pdf": "/assets/vaibhav-soni-residence-drawing-09.pdf",
+        "preview": "/assets/vaibhav-soni-residence-drawing-09.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/Vaibhav Soni",
+    "hotspots": [
+      {
+        "x": 46,
+        "y": 67,
+        "title": "Warmth and function",
+        "description": "The living space pairs a functional furniture layout with a warm, contemporary palette."
+      },
+      {
+        "x": 32,
+        "y": 34,
+        "title": "A refined backdrop",
+        "description": "Considered detailing gives the living room a cohesive visual identity."
+      }
+    ]
+  },
+  {
+    "slug": "rishab-ji",
+    "title": "Rishab JI",
+    "category": "residential",
+    "scope": "Residential interiors",
+    "description": "A residential interior study spanning drawing and living areas, dining and kitchen spaces, a home office and mandir, bedrooms, wardrobes, and balconies. The 3D visualizations pair warm timber, soft neutral finishes, and integrated lighting, supported by the supplied 2D elevations, electrical layouts, and ceiling details.",
+    "status": "rendered",
+    "images": [
+      {
+        "src": "/assets/rishab-ji-01.webp",
+        "thumb": "/assets/rishab-ji-01-thumb.webp",
+        "alt": "Rishab JI — drawing area with a cream sectional sofa, circular coffee tables, wall mouldings, and timber accents",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=3"
+      },
+      {
+        "src": "/assets/rishab-ji-02.webp",
+        "thumb": "/assets/rishab-ji-02-thumb.webp",
+        "alt": "Rishab JI — angled drawing-area view with a sectional sofa, decorative wall panels, and a ceiling fan",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=4"
+      },
+      {
+        "src": "/assets/rishab-ji-03.webp",
+        "thumb": "/assets/rishab-ji-03-thumb.webp",
+        "alt": "Rishab JI — paired views of a timber-and-glass partition and the entry console with an illuminated circular mirror",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=5"
+      },
+      {
+        "src": "/assets/rishab-ji-04.webp",
+        "thumb": "/assets/rishab-ji-04-thumb.webp",
+        "alt": "Rishab JI — living area with soft seating, an arched illuminated display niche, and full-height curtains",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=6"
+      },
+      {
+        "src": "/assets/rishab-ji-05.webp",
+        "thumb": "/assets/rishab-ji-05-thumb.webp",
+        "alt": "Rishab JI — living-area seating beside a tall window, with warm display lighting and neutral finishes",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=7"
+      },
+      {
+        "src": "/assets/rishab-ji-06.webp",
+        "thumb": "/assets/rishab-ji-06-thumb.webp",
+        "alt": "Rishab JI — living-area television wall with a floating console, fluted details, and illuminated shelving",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=8"
+      },
+      {
+        "src": "/assets/rishab-ji-07.webp",
+        "thumb": "/assets/rishab-ji-07-thumb.webp",
+        "alt": "Rishab JI — dining area with upholstered chairs, illuminated crockery storage, and an adjoining kitchen",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=9"
+      },
+      {
+        "src": "/assets/rishab-ji-08.webp",
+        "thumb": "/assets/rishab-ji-08-thumb.webp",
+        "alt": "Rishab JI — dining table framed by wall artwork, neutral upholstered chairs, and a timber partition",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=10"
+      },
+      {
+        "src": "/assets/rishab-ji-09.webp",
+        "thumb": "/assets/rishab-ji-09-thumb.webp",
+        "alt": "Rishab JI — kitchen with warm timber cabinetry, cream drawers, dark worktops, and a fluted breakfast counter",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=11"
+      },
+      {
+        "src": "/assets/rishab-ji-10.webp",
+        "thumb": "/assets/rishab-ji-10-thumb.webp",
+        "alt": "Rishab JI — kitchen with a breakfast counter, pendant lights, timber cupboards, and a refrigerator",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=12"
+      },
+      {
+        "src": "/assets/rishab-ji-11.webp",
+        "thumb": "/assets/rishab-ji-11-thumb.webp",
+        "alt": "Rishab JI — kitchen sink wall with glazed display cabinets, cream base units, and under-cabinet lighting",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=13"
+      },
+      {
+        "src": "/assets/rishab-ji-12.webp",
+        "thumb": "/assets/rishab-ji-12-thumb.webp",
+        "alt": "Rishab JI — crockery unit with illuminated glass display shelves, fluted detailing, and closed storage",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=14"
+      },
+      {
+        "src": "/assets/rishab-ji-13.webp",
+        "thumb": "/assets/rishab-ji-13-thumb.webp",
+        "alt": "Rishab JI — combined home office and mandir with an illuminated shrine, desk, and white visitor chairs",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=15"
+      },
+      {
+        "src": "/assets/rishab-ji-14.webp",
+        "thumb": "/assets/rishab-ji-14-thumb.webp",
+        "alt": "Rishab JI — master bedroom with an upholstered bed, botanical wall detailing, bedside lighting, and timber flooring",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=16"
+      },
+      {
+        "src": "/assets/rishab-ji-15.webp",
+        "thumb": "/assets/rishab-ji-15-thumb.webp",
+        "alt": "Rishab JI — angled master-bedroom view with an upholstered bed, console, armchair, and tall curtains",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=17"
+      },
+      {
+        "src": "/assets/rishab-ji-16.webp",
+        "thumb": "/assets/rishab-ji-16-thumb.webp",
+        "alt": "Rishab JI — master-bedroom wardrobe wall with full-height cabinets, a glazed display, and warm ceiling lighting",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=18"
+      },
+      {
+        "src": "/assets/rishab-ji-17.webp",
+        "thumb": "/assets/rishab-ji-17-thumb.webp",
+        "alt": "Rishab JI — three dressing-wardrobe views for the master and parents bedrooms, including a full-height mirror",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=19"
+      },
+      {
+        "src": "/assets/rishab-ji-18.webp",
+        "thumb": "/assets/rishab-ji-18-thumb.webp",
+        "alt": "Rishab JI — parents bedroom with an upholstered bed, curved wall panels, and circular decorative artwork",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=20"
+      },
+      {
+        "src": "/assets/rishab-ji-19.webp",
+        "thumb": "/assets/rishab-ji-19-thumb.webp",
+        "alt": "Rishab JI — parents bedroom with a window seat, tall curtains, and a neutral upholstered bed",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=21"
+      },
+      {
+        "src": "/assets/rishab-ji-20.webp",
+        "thumb": "/assets/rishab-ji-20-thumb.webp",
+        "alt": "Rishab JI — guest bedroom with a fluted feature wall, curved lighting detail, grey bed, and ochre accent chair",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=22"
+      },
+      {
+        "src": "/assets/rishab-ji-21.webp",
+        "thumb": "/assets/rishab-ji-21-thumb.webp",
+        "alt": "Rishab JI — guest-bedroom view with full-height wardrobes, a glazed storage section, and an upholstered bed",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=23"
+      },
+      {
+        "src": "/assets/rishab-ji-22.webp",
+        "thumb": "/assets/rishab-ji-22-thumb.webp",
+        "alt": "Rishab JI — alternate guest-bedroom view with neutral wardrobes, bedside wall lights, and an ochre accent chair",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=24"
+      },
+      {
+        "src": "/assets/rishab-ji-23.webp",
+        "thumb": "/assets/rishab-ji-23-thumb.webp",
+        "alt": "Rishab JI — first balcony with sectional seating, a timber ceiling, vertical wall slats, and planted shelves",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=25"
+      },
+      {
+        "src": "/assets/rishab-ji-24.webp",
+        "thumb": "/assets/rishab-ji-24-thumb.webp",
+        "alt": "Rishab JI — alternate first-balcony view with lounge seating, timber ceiling, planted shelves, and a glass balustrade",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=26"
+      },
+      {
+        "src": "/assets/rishab-ji-25.webp",
+        "thumb": "/assets/rishab-ji-25-thumb.webp",
+        "alt": "Rishab JI — second balcony with a suspended swing seat, timber ceiling, decorative wall baskets, and planting",
+        "width": 1600,
+        "height": 1131,
+        "source": "Projects/Residential/Rishab JI/Rishabh ji_final 3DS-1-compressed.pdf#page=27"
+      }
+    ],
+    "drawings": [
+      {
+        "title": "Mandir and office — false-ceiling details",
+        "pdf": "/assets/rishab-ji-drawing-01.pdf",
+        "preview": "/assets/rishab-ji-drawing-01.webp"
+      },
+      {
+        "title": "Electrical layouts (3 pages)",
+        "pdf": "/assets/rishab-ji-drawing-02.pdf",
+        "preview": "/assets/rishab-ji-drawing-02.webp"
+      },
+      {
+        "title": "Drawing area — false-ceiling details",
+        "pdf": "/assets/rishab-ji-drawing-03.pdf",
+        "preview": "/assets/rishab-ji-drawing-03.webp"
+      },
+      {
+        "title": "Guest bedroom — false-ceiling details",
+        "pdf": "/assets/rishab-ji-drawing-04.pdf",
+        "preview": "/assets/rishab-ji-drawing-04.webp"
+      },
+      {
+        "title": "Dining and kitchen — false-ceiling details",
+        "pdf": "/assets/rishab-ji-drawing-05.pdf",
+        "preview": "/assets/rishab-ji-drawing-05.webp"
+      },
+      {
+        "title": "Master bedroom — false-ceiling details",
+        "pdf": "/assets/rishab-ji-drawing-06.pdf",
+        "preview": "/assets/rishab-ji-drawing-06.webp"
+      },
+      {
+        "title": "Updated 2D elevations (64 pages)",
+        "pdf": "/assets/rishab-ji-drawing-07.pdf",
+        "preview": "/assets/rishab-ji-drawing-07.webp"
+      },
+      {
+        "title": "Final 3D presentation (27 pages)",
+        "pdf": "/assets/rishab-ji-3d-presentation.pdf",
+        "preview": "/assets/rishab-ji-3d-presentation.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Rishab JI"
+  },
+  {
+    "slug": "cafe-false-ceiling",
+    "title": "Café false ceiling",
+    "category": "commercial",
+    "scope": "Ceiling and lighting drawings",
+    "description": "A café ceiling study comprising two false-ceiling plans and a sectional detail. The supplied drawings show ceiling levels, profile and COB lighting, a chandelier, and framework and cove-light details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Café false ceiling — plan 1",
+        "pdf": "/assets/cafe-false-ceiling-drawing-01.pdf",
+        "preview": "/assets/cafe-false-ceiling-drawing-01.webp"
+      },
+      {
+        "title": "Café false ceiling — plan 2",
+        "pdf": "/assets/cafe-false-ceiling-drawing-02.pdf",
+        "preview": "/assets/cafe-false-ceiling-drawing-02.webp"
+      },
+      {
+        "title": "Café false ceiling — sectional detail",
+        "pdf": "/assets/cafe-false-ceiling-drawing-03.pdf",
+        "preview": "/assets/cafe-false-ceiling-drawing-03.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/Cafe False Ceiling",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "anil-ji-kitchen-layout",
+    "title": "ANIL Ji - kitchen layout",
+    "category": "residential",
+    "scope": "Residential kitchen planning",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "ANIL JI - KITCHEN LAYOUT",
+        "pdf": "/assets/anil-ji-kitchen-layout-drawing-01.pdf",
+        "preview": "/assets/anil-ji-kitchen-layout-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/ANIL JI - KITCHEN LAYOUT.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "ankit-ji-kitchen-model",
+    "title": "Ankit ji Kitchen",
+    "category": "residential",
+    "scope": "Residential kitchen planning",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Ankit ji Kitchen",
+        "pdf": "/assets/ankit-ji-kitchen-model-drawing-01.pdf",
+        "preview": "/assets/ankit-ji-kitchen-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/Ankit ji Kitchen-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "dinesh-ji-model",
+    "title": "DINESH Ji",
+    "category": "commercial",
+    "scope": "Commercial dining layout",
+    "description": "Commercial ground-floor furniture plan showing dining areas, a VIP section, passages, and supporting spaces. Explore the updated PDF for the supplied layout and dimensions.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Dinesh Ji — commercial furniture layout",
+        "pdf": "/assets/dinesh-ji-model-drawing-01.pdf",
+        "preview": "/assets/dinesh-ji-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/Dinesh Ji",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "divyansh-ji-model",
+    "title": "Divyansh ji",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Divyansh ji",
+        "pdf": "/assets/divyansh-ji-model-drawing-01.pdf",
+        "preview": "/assets/divyansh-ji-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/Divyansh ji-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "igi-opt-1-model",
+    "title": "IGI OPT 1",
+    "category": "commercial",
+    "scope": "Workplace planning",
+    "description": "Commercial furniture layout with office cabins, shared work areas, storage, and a pantry. Explore the updated PDF for the supplied layout and dimensions.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "IGI OPT 1 — commercial furniture layout",
+        "pdf": "/assets/igi-opt-1-model-drawing-01.pdf",
+        "preview": "/assets/igi-opt-1-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Commercial/IGI",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "mridl-ji-layout-model",
+    "title": "MRIDL Ji LAYOUT",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "MRIDL JI LAYOUT",
+        "pdf": "/assets/mridl-ji-layout-model-drawing-01.pdf",
+        "preview": "/assets/mridl-ji-layout-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/MRIDL JI LAYOUT-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "priyanka-ji-model",
+    "title": "PRIYANKA Ji",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "PRIYANKA JI",
+        "pdf": "/assets/priyanka-ji-model-drawing-01.pdf",
+        "preview": "/assets/priyanka-ji-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/PRIYANKA JI-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "ravindra-ji-model",
+    "title": "RAVINDRA Ji",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "RAVINDRA JI",
+        "pdf": "/assets/ravindra-ji-model-drawing-01.pdf",
+        "preview": "/assets/ravindra-ji-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/RAVINDRA JI-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "shivani-ji-model",
+    "title": "SHIVANI Ji",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "SHIVANI JI",
+        "pdf": "/assets/shivani-ji-model-drawing-01.pdf",
+        "preview": "/assets/shivani-ji-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/SHIVANI JI-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "saurabh-ji-model",
+    "title": "Saurabh Ji",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Saurabh Ji",
+        "pdf": "/assets/saurabh-ji-model-drawing-01.pdf",
+        "preview": "/assets/saurabh-ji-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/Saurabh Ji-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "shirish-ji-layout-model-1",
+    "title": "Shirish ji layout",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Shirish ji layout 1",
+        "pdf": "/assets/shirish-ji-layout-model-1-drawing-01.pdf",
+        "preview": "/assets/shirish-ji-layout-model-1-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/Shirish ji layout-Model 1.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "sonendar-ji-model",
+    "title": "Sonendar ji",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Sonendar ji",
+        "pdf": "/assets/sonendar-ji-model-drawing-01.pdf",
+        "preview": "/assets/sonendar-ji-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/Sonendar ji-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "vivek-ji-layout-16june-final-model",
+    "title": "VIVEK Ji layout",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Vivek Ji — residential working plan",
+        "pdf": "/assets/vivek-ji-layout-16june-final-model-drawing-01.pdf",
+        "preview": "/assets/vivek-ji-layout-16june-final-model-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/VIVEK JI LAYOUT.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "vijay-ji",
+    "title": "vijay ji",
+    "category": "residential",
+    "scope": "Residential working drawings",
+    "description": "A working drawing study from the supplied archive. Explore the original document for the spatial planning and design details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "vijay ji",
+        "pdf": "/assets/vijay-ji-drawing-01.pdf",
+        "preview": "/assets/vijay-ji-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/vijay ji.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "residential-case-study",
+    "title": "Residential case study",
+    "category": "residential",
+    "scope": "Residential plan study",
+    "description": "A residential case-study plan showing a living area, stair, bathroom, and upper-level layout. Explore the original PDF for the supplied drawing.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Residential case-study plan",
+        "pdf": "/assets/residential-case-study-drawing-01.pdf",
+        "preview": "/assets/residential-case-study-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/Case study drawing_recover.bak-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "mahesh-ji-working-plan",
+    "title": "Mahesh Ji — working plan",
+    "category": "residential",
+    "scope": "Residential working drawing",
+    "description": "Residential working plan supplied as “Mahesh Ji”; the sheet’s title block identifies “Mukesh Ji”. Open the original PDF for the plan and annotations.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Working plan — uploaded as Mahesh Ji",
+        "pdf": "/assets/mahesh-ji-working-plan-drawing-01.pdf",
+        "preview": "/assets/mahesh-ji-working-plan-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/Mahesh ji khejroli electrical drawing-Model.pdf",
+    "showInExtraWork": true
+  },
+  {
+    "slug": "meena-ji-electrical-layouts",
+    "title": "Meena Ji — electrical layouts",
+    "category": "residential",
+    "scope": "Residential electrical drawings",
+    "description": "Supplied residential electrical layout drawings showing annotated plans. Open the original PDF to explore the layout and details.",
+    "status": "drawings-only",
+    "images": [],
+    "drawings": [
+      {
+        "title": "Meena Ji — electrical layouts",
+        "pdf": "/assets/meena-ji-electrical-layouts-drawing-01.pdf",
+        "preview": "/assets/meena-ji-electrical-layouts-drawing-01.webp"
+      }
+    ],
+    "sourceFolder": "Projects/Residential/Extra Drawings/Meena Ji electrical layouting.pdf",
+    "showInExtraWork": true
+  }
+]

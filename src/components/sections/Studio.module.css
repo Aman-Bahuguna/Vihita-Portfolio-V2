@@ -1,0 +1,115 @@
+.studio { padding-block: var(--landing-section-space); background: var(--landing-bg); color: var(--landing-text); overflow: hidden; }
+.sectionTop { display: flex; justify-content: space-between; align-items: center; color: var(--landing-accent-text); }
+.sectionTop p { font-size: 15px; }
+.sectionTop > svg { width: 28px; height: 28px; }
+.headingRow { display: flex; justify-content: space-between; gap: var(--space-8); align-items: flex-end; margin-top: 30px; }
+.title { font-size: clamp(42px, 5.75vw, 92px); letter-spacing: -.065em; font-weight: 650; line-height: .98; }
+.title > span { display: block; overflow: hidden; padding-bottom: .1em; margin-bottom: -.1em; }
+.title > span > span { display: block; }
+.title > span:last-child { color: var(--landing-accent-text); }
+.intro { max-width: 290px; color: var(--landing-muted); font-size: 15px; line-height: 1.8; }
+.practice { display: grid; grid-template-columns: .9fr 1.25fr; align-items: center; gap: 7%; margin-top: 65px; }
+.discipline { border-top: 1px solid var(--landing-line); padding-block: 12px; }
+.disciplineButton { border: 0; width: 100%; border-radius: 0; padding: 15px 0; justify-content: space-between; gap: 20px; background: transparent; color: var(--landing-muted); text-align: left; }
+.disciplineButton:hover { background: transparent; color: var(--landing-text); }
+.disciplineButton > span { font-size: clamp(22px, 2.2vw, 34px); font-weight: 500; letter-spacing: -.045em; }
+.disciplineButton > svg { width: 24px; height: 24px; }
+.disciplineActive .disciplineButton { color: var(--landing-accent-text); }
+.disciplineActive .disciplineButton > svg { transform: rotate(45deg); }
+.disciplineBody > p { color: var(--landing-muted); font-size: 14px; padding-bottom: 20px; max-width: 345px; }
+.archiveLink { display: inline-flex; align-items: center; justify-content: space-between; gap: 40px; font-size: 13px; padding-block: 18px; margin-top: 15px; border-bottom: 1px solid var(--landing-line); }
+.archiveLink svg { transition: transform 250ms var(--ease-out); }
+.archiveLink:hover svg { transform: translate(3px,-3px); }
+.drawingBoard { padding: 20px; background: var(--landing-panel); border: 1px solid var(--landing-line); position: relative; min-width: 0; }
+.boardHeading { display: flex; justify-content: space-between; align-items: center; gap: 15px; font-size: 11px; color: var(--landing-muted); padding-bottom: 20px; }
+.boardHeading > span:first-child { display: flex; gap: 9px; align-items: center; }
+.boardHeading > span:last-child { font-size: 10px; }
+.previewFrame { height: clamp(270px, 28vw, 430px); overflow: hidden; background: var(--landing-paper); }
+.previewFrame img { width: 100%; height: 100%; object-fit: contain; padding: 20px; }
+.renderBoard .previewFrame img { padding: 0; object-fit: cover; }
+.boardCaption { display: flex; gap: 15px; align-items: center; justify-content: space-between; margin-top: 18px; }
+.boardCaption > p { font-size: 12px; color: var(--landing-text); }
+.boardCaption > svg { color: var(--landing-accent-text); }
+.boardLine { position: absolute; bottom: -1px; left: -1px; right: -1px; height: 2px; background: var(--landing-accent); }
+.toolkit { margin-top: 110px; padding-top: 60px; border-top: 1px solid var(--landing-line); }
+.toolkitHeading { display: flex; align-items: flex-end; justify-content: space-between; gap: var(--space-7); }
+.toolkitHeading h3 { font-size: clamp(36px, 4.2vw, 64px); letter-spacing: -.055em; line-height: 1; }
+.toolkitHeading h3 > span:last-child { color: var(--landing-accent-text); }
+.toolkitHeading > p { font-size: 14px; color: var(--landing-muted); }
+.toolGrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--landing-line); border: 1px solid var(--landing-line); margin-top: 40px; }
+.toolCard { background: var(--landing-bg); color: var(--landing-text); border: 0; border-radius: 0; padding: 26px; align-items: flex-start; flex-direction: column; gap: 0; white-space: normal; text-align: left; min-width: 0; transition: color 250ms, background 250ms; }
+.toolCard:hover { background: var(--landing-panel-raised); }
+.toolLogo { display: flex; align-items: flex-start; justify-content: space-between; width: 100%; }
+.toolLogo > img { width: 48px; height: 48px; object-fit: contain; filter: brightness(0) invert(1); transition: transform 400ms var(--ease-out); }
+.toolCard:nth-child(3) .toolLogo > img { width: 90px; }
+.toolCard:hover .toolLogo > img { transform: translateY(-4px); }
+.toolCheck { color: var(--landing-muted); }
+.toolName { margin-top: 29px; font-size: 22px; letter-spacing: -.035em; font-weight: 550; }
+.toolDiscipline { font-size: 12px; line-height: 1.5; margin-top: 6px; color: var(--landing-muted); }
+.toolCard.toolActive { background: var(--landing-accent); color: var(--landing-accent-ink); }
+.toolCard.toolActive:focus-visible { outline-color: var(--landing-text); }
+.toolActive .toolLogo > img { filter: brightness(0); }
+.toolActive .toolCheck, .toolActive .toolDiscipline { color: var(--landing-accent-ink); }
+.toolDetail { display: grid; grid-template-columns: 170px 1fr 28px; align-items: center; gap: 30px; min-height: 105px; border-bottom: 1px solid var(--landing-line); padding-block: 22px; }
+.toolDetail > span { font-size: 19px; font-weight: 550; }
+.toolDetail > p { max-width: 680px; font-size: 14px; color: var(--landing-muted); }
+.toolDetail > svg { color: var(--landing-accent-text); }
+@media (max-width: 1050px) {
+  .headingRow { gap: 30px; flex-direction: column; align-items: flex-start; }
+  .title { font-size: clamp(46px,7.5vw,78px); }
+  .intro { max-width: 480px; }
+  .practice { gap: 5%; grid-template-columns: .9fr 1.1fr; margin-top: 45px; }
+  .boardHeading > span:last-child { display: none; }
+  .drawingBoard { padding: 15px; }
+  .toolCard { padding: 22px; }
+  .toolName { font-size: 19px; }
+}
+@media (max-width: 700px) {
+  .sectionTop p { font-size: 13px; }
+  .sectionTop > svg { width: 23px; height: 23px; }
+  .title { font-size: clamp(34px,8.6vw,58px); }
+  .headingRow { gap: 24px; margin-top: 25px; }
+  .intro { font-size: 14px; }
+  .practice { grid-template-columns: 1fr; gap: 35px; }
+  .disciplineButton { min-height: 56px; padding-block: 12px; }
+  .disciplineButton > span { font-size: 27px; }
+  .disciplineBody > p { font-size: 13px; padding-bottom: 14px; }
+  .archiveLink { font-size: 12px; width: 100%; margin-top: 8px; }
+  .previewFrame { height: 300px; }
+  .boardCaption > p { font-size: 10px; }
+  .toolkit { margin-top: 65px; padding-top: 40px; }
+  .toolkitHeading { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .toolkitHeading h3 { font-size: clamp(28px,7.2vw,46px); }
+  .toolkitHeading > p { font-size: 13px; }
+  .toolGrid { grid-template-columns: repeat(2,1fr); margin-top: 28px; }
+  .toolCard { padding: 20px; min-height: 175px; }
+  .toolName { font-size: 20px; margin-top: 23px; }
+  .toolDiscipline { font-size: 11px; }
+  .toolLogo > img { height: 40px; width: 40px; }
+  .toolCard:nth-child(3) .toolLogo > img { width: 78px; }
+  .toolDetail { grid-template-columns: 1fr 22px; gap: 10px; padding-block: 24px; }
+  .toolDetail > span { font-size: 20px; }
+  .toolDetail > p { grid-row: 2; font-size: 13px; }
+  .toolDetail > svg { grid-column: 2; grid-row: 1; }
+}
+.processGrid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: var(--space-5); margin-top: var(--space-8); }
+.processCard { min-width: 0; border-top: 1px solid var(--landing-line); padding-top: var(--space-4); }
+.processTag { color: var(--landing-accent-text); font-size: .65rem; letter-spacing: .12em; margin-bottom: var(--space-5); }
+.processImage { aspect-ratio: 1.15; overflow: hidden; background: var(--landing-paper); }
+.processImage img { width: 100%; height: 100%; object-fit: contain; padding: var(--space-4); transition: transform .7s var(--ease-out); }
+.processRender img { object-fit: cover; padding: 0; }
+.processCard:hover img { transform: scale(1.04); }
+.processCard h3 { font-size: clamp(1.5rem,2.2vw,2.2rem); letter-spacing: -.05em; margin-block: var(--space-5) var(--space-3); }
+.processCard > p:last-child { font-size: .875rem; color: var(--landing-muted); line-height: 1.8; }
+.openToolGrid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); margin-top: var(--space-7); border-top: 1px solid var(--landing-line); border-left: 1px solid var(--landing-line); }
+.openTool { padding: var(--space-6); border-right: 1px solid var(--landing-line); border-bottom: 1px solid var(--landing-line); background: var(--landing-panel); transition: background .3s; min-width: 0; }
+@media (hover: hover) and (pointer: fine) { .openTool:hover { background: var(--landing-panel-raised); } }
+.openToolTop { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-7); }
+.openToolTop img { object-fit: contain; width: var(--space-7); height: var(--space-7); flex-shrink: 0; filter: var(--tool-logo-filter); }
+.openToolTop span { color: var(--landing-accent-text); font-size: .7rem; }
+.openTool h4 { font-size: 1.5rem; letter-spacing: -.04em; margin-block: var(--space-2) var(--space-4); }
+.openTool > p:last-child { font-size: .8rem; line-height: 1.8; color: var(--landing-muted); }
+.toolkitHeading h3 > span { color: var(--landing-accent-text); }
+@media(max-width:1050px) { .openToolGrid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:700px) { .processGrid { grid-template-columns: 1fr; gap: var(--space-7); } .processImage { aspect-ratio: 1.4; } .openTool { padding: var(--space-4); } .openTool h4 { font-size: 1.2rem; } .openToolTop { margin-bottom: var(--space-5); } }
+@media(prefers-reduced-motion:reduce) { :global(html:not([data-motion='full'])) .processImage img, :global(html:not([data-motion='full'])) .openTool { transition: none; } }

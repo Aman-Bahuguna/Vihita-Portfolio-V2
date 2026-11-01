@@ -1,0 +1,89 @@
+.header { position: absolute; top: 0; left: 0; z-index: 70; width: 100%; height: 108px; display: flex; align-items: center; justify-content: space-between; padding-inline: var(--gutter); gap: var(--space-6); transition: background 300ms; }
+.scrolled { position: fixed; height: 83px; background: var(--cream); border-bottom: 1px solid var(--line); box-shadow: var(--shadow-paper); }
+.innerHeader { background: var(--cream); }
+.logo { display: flex; align-items: center; gap: var(--space-3); }
+.logo > img { width: 32px; height: 43px; object-fit: contain; }
+.logo > span { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.logo strong { font-family: var(--font-display); font-size: 28px; line-height: 1; font-weight: 400; letter-spacing: 0.12em; }
+.logo > span > span { font-size: 8px; line-height: 1; letter-spacing: 0.47em; margin-left: 3px; }
+.headerNote { position: absolute; left: 41%; font-size: 8px; line-height: 1.8; letter-spacing: 0.12em; color: var(--ink-soft); }
+.desktopNav { display: flex; align-items: center; gap: var(--space-7); font-size: 11px; }
+.themeToggle { margin-left: auto; }
+.desktopNav > a:not(:last-child) { padding-block: var(--space-3); position: relative; }
+.desktopNav > a:first-child { display: flex; align-items: center; gap: 4px; }
+.desktopNav > a:not(:last-child)::after { content: ''; position: absolute; bottom: 4px; left: 0; width: 100%; height: 1px; background: var(--ink); transform: scaleX(0); transform-origin: left; transition: transform 250ms; }
+.desktopNav > a:hover::after, .desktopNav > a[aria-current]::after { transform: scaleX(1); }
+.desktopNav > a > span { margin-left: 3px; }
+.desktopNav > a:last-child { min-height: 40px; padding-inline: var(--space-4); font-size: 11px; gap: var(--space-5); }
+.menuToggle { display: none; }
+.mobileMenu { display: none; }
+.roomNavigation { position: fixed; z-index: 80; bottom: 23px; left: 50%; transform: translateX(-50%); }
+.roomToggle { background: var(--cream); border: 1px solid var(--line); box-shadow: var(--shadow-paper); border-radius: var(--radius-pill); height: 50px; padding: 0 18px; gap: 15px; }
+.roomToggle > svg:first-child { width: 23px; height: 23px; }
+.roomToggle:hover { background: var(--white); }
+.roomToggle:hover svg { transform: none; }
+.currentRoom { font-size: 10px; min-width: 75px; font-weight: 400; }
+.currentRoom > span { color: var(--ink-soft); margin-right: 4px; }
+.roomDots { display: flex; gap: 5px; }
+.roomDots i { width: 4px; height: 4px; background: var(--sage-mid); border-radius: 50%; transition: transform 250ms; }
+.roomDots .activeDot { background: var(--forest); transform: scale(1.3); }
+.chevronOpen { transform: rotate(180deg) !important; }
+.floorplanPopover { position: absolute; bottom: 64px; left: 50%; transform: translateX(-50%); width: 356px; background: var(--cream); border: 1px solid var(--line); padding: var(--space-5); box-shadow: var(--shadow-object); animation: appear 250ms var(--ease-out); }
+.planHeading { display: flex; align-items: center; justify-content: space-between; }
+.planHeading > button { min-height: 24px; padding: 0; }
+.planHeading p { font-size: 8px; }
+.planIntro { font-family: var(--font-display); font-size: 38px; padding-bottom: var(--space-5); }
+.planGrid { display: grid; grid-template-columns: 1fr 1fr; border-top: 2px solid var(--ink); border-left: 2px solid var(--ink); }
+.planRoom { display: flex; flex-direction: column; justify-content: space-between; min-height: 105px; padding: var(--space-3); border-bottom: 2px solid var(--ink); border-right: 2px solid var(--ink); transition: background 200ms; }
+.planRoom:hover, .planRoomActive { background: var(--sage); }
+.planRoom:nth-child(2) { background: var(--sand); }
+.planRoom:nth-child(4) { background: var(--clay); }
+.planRoom > span { display: flex; justify-content: space-between; font-size: 9px; }
+.planRoom strong { margin-top: var(--space-4); font-family: var(--font-display); font-size: 23px; font-weight: 400; }
+.planRoom small { font-size: 8px; color: var(--ink-soft); margin-top: 5px; }
+.planFootnote { margin-top: var(--space-4); font-size: 7px; text-align: center; }
+.experienceControls { position: fixed; z-index: 75; bottom: 26px; right: 25px; display: flex; align-items: center; gap: var(--space-3); }
+.motionControl { font-size: 9px; gap: var(--space-2); background: var(--cream); border: 1px solid var(--line); border-radius: var(--radius-pill); min-height: 40px; }
+.motionControl svg { width: 13px; height: 13px; }
+.experienceControls > .motionControl { width: auto; min-height: 44px; padding-inline: var(--space-4); box-shadow: var(--shadow-paper); }
+.motionControl:hover svg { transform: none; }
+.footer { background: var(--cream); padding-block: var(--space-6) 108px; }
+.footerRow { display: flex; align-items: center; justify-content: space-between; gap: var(--space-5); border-top: 1px solid var(--line); padding-top: var(--space-6); }
+.footerBrand { display: flex; align-items: center; gap: var(--space-3); font-family: var(--font-display); font-size: 23px; }
+.footerBrand > img { width: 23px; height: 30px; object-fit: contain; }
+.footerRow > p { font-size: 9px; color: var(--ink-soft); }
+.footerRow > div { display: flex; gap: var(--space-6); font-size: 10px; }
+.footerRow > div a { display: flex; align-items: center; gap: var(--space-3); }
+@keyframes appear { from { opacity: 0; translate: 0 8px; } to { opacity: 1; translate: 0 0; } }
+@media (min-width: 1800px) { .header { padding-inline: max(var(--gutter), calc((100vw - var(--page-width))/2 + var(--gutter))); } }
+@media (max-width: 1000px) { .headerNote { display: none; } .desktopNav { gap: var(--space-5); } }
+@media (max-width: 650px) {
+  .header { height: 86px; } .scrolled { height: 72px; }
+  .logo strong { font-size: 25px; } .logo > img { width: 27px; height: 36px; }
+  .desktopNav { display: none; } .menuToggle { display: inline-flex; padding: 0; }
+  .mobileMenu { display: flex; position: absolute; top: 86px; left: 0; right: 0; background: var(--cream); border-bottom: 1px solid var(--line); padding: var(--space-6) var(--gutter); flex-direction: column; gap: var(--space-6); box-shadow: var(--shadow-object); }
+  .scrolled .mobileMenu { top: 72px; }
+  .mobileMenu > a { font-family: var(--font-display); font-size: 32px; }
+  .mobileMenu > a:last-of-type { font-family: var(--font-body); font-size: 12px; width: fit-content; }
+  .mobileMenu > p { font-size: 11px; color: var(--ink-soft); }
+  .roomNavigation { left: 16px; transform: none; bottom: 16px; }
+  .roomToggle { height: 44px; padding-inline: 12px; gap: 10px; }
+  .roomToggle > svg:first-child { width: 20px; height: 20px; }
+  .roomDots { display: none; }
+  .floorplanPopover { left: 0; transform: none; bottom: 56px; width: min(350px, calc(100vw - 32px)); }
+  .experienceControls { right: 16px; bottom: 18px; gap: var(--space-2); }
+  .experienceControls > .motionControl { min-height: 44px; }
+  :global(body:not(:has(#entrance))) .experienceControls > .motionControl { width: 44px; padding: 0; }
+  :global(body:not(:has(#entrance))) .motionControl span { display: none; }
+  .experienceControls { bottom: max(var(--space-4), env(safe-area-inset-bottom)); }
+  .footerRow { flex-wrap: wrap; row-gap: var(--space-5); }
+  .footerBrand { font-size: 21px; } .footerRow > p { order: 3; width: 100%; }
+  .footerRow > div { gap: var(--space-4); }
+}
+:global(body:has(#entrance)) .header:not(.scrolled) { color: var(--cream); background: transparent; }
+:global(body:has(#entrance)) .header:not(.scrolled) .desktopNav > a:last-child { border-color: #ffffff40; }
+.headerNote { display: none; }
+.logo strong { font-family: var(--font-body); font-weight: 650; font-size: 26px; letter-spacing: -.04em; }
+.desktopNav { font-size: 14px; }
+.desktopNav > a:last-child { font-size: 13px; }
+.footerBrand { font-family: var(--font-body); font-size: 20px; }

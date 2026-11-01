@@ -1,0 +1,7 @@
+.story { background: var(--sage); color: var(--ink); padding: 110px var(--gutter); min-height: 850px; height: 100svh; display: grid; grid-template-columns: 1fr 1.1fr; gap: 7%; align-items: center; overflow: hidden; }
+.copy > p:first-child { font-size: 17px; margin-bottom: 40px; }
+.copy h2 { font-size: clamp(50px,6vw,100px); font-weight: 600; letter-spacing: -.065em; line-height: 1.02; }
+.copy > p:last-child { font-size: 16px; max-width: 340px; margin-top: 35px; }
+.art { position: relative; }.art svg { width: 100%; }.art img { width: 55%; height: 250px; object-fit: cover; margin-left: auto; margin-top: -35px; border: 8px solid var(--cream); box-shadow: var(--shadow-object); }
+.art [data-pencil] { visibility: hidden; }
+@media(max-width:799px){.story{height:auto;min-height:0;grid-template-columns:1fr;padding-block:70px;gap:40px}.copy h2{font-size:55px}.copy>p:first-child{margin-bottom:25px}.art img{height:170px}}

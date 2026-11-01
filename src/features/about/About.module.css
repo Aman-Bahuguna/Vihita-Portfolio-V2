@@ -1,0 +1,155 @@
+.aboutPage { padding-top: 108px; }
+.aboutHero { background: var(--rose); overflow: hidden; }
+.aboutHeroInner { display: grid; grid-template-columns: 1.3fr 1fr; gap: 8%; min-height: 710px; align-items: center; padding-block: 65px 95px; position: relative; }
+.aboutHeroCopy > p:first-child { font-size: 8px; }
+.aboutHeroCopy h1 { font-size: clamp(68px,7.5vw,120px); line-height: 0.98; margin-top: 30px; }
+.aboutHeroCopy h1 em { font-weight: 400; }
+.aboutHeroCopy > p:nth-of-type(2) { max-width: 345px; margin-top: 30px; color: var(--ink-soft); font-size: 12px; }
+.aboutHeroMeta { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 25px; font-size: 7px; letter-spacing: 0.07em; text-transform: uppercase; }
+.aboutHeroMeta > span:last-child { opacity: 0.7; }
+.aboutHeroCopy > a { margin-top: 25px; font-size: 10px; gap: 45px; }
+.portraitFrame { width: 100%; max-width: 440px; aspect-ratio: 0.78; position: relative; border-radius: 50% 50% 0 0 / 35% 35% 0 0; }
+.portraitFrame > img { width: 100%; height: 100%; object-fit: cover; object-position: 45% 40%; border-radius: inherit; }
+.portraitOutline { position: absolute; inset: -15px; border: 1px solid var(--line); border-radius: inherit; }
+.portraitSignature { position: absolute; bottom: 20px; right: -25px; background: var(--cream); box-shadow: var(--shadow-object); padding: 15px 25px; transform: rotate(-7deg); font-family: var(--font-display); font-style: italic; font-size: 30px; white-space: nowrap; }
+.aboutHeroFoot { display: flex; align-items: center; justify-content: space-between; position: absolute; bottom: 30px; left: var(--gutter); right: var(--gutter); }
+.aboutHeroFoot > p { font-size: 7px; }
+.personalRoom { background: var(--cream); padding-block: 100px 70px; overflow: hidden; }
+.personalRoomInner { display: grid; grid-template-columns: 1.15fr 1fr; gap: 10%; align-items: center; }
+.personalRoomInner > div:first-child > h2 { font-size: clamp(59px,5.7vw,88px); margin-top: 30px; }
+.personalRoomInner > div:first-child > h2 em { font-weight: 400; }
+.personalRoomInner > div:first-child > p:nth-of-type(2), .personalRoomInner > div:first-child > p:nth-of-type(3) { max-width: 395px; font-size: 12px; color: var(--ink-soft); margin-top: 25px; }
+.philosophyNote { display: flex; align-items: center; gap: 25px; margin-top: 33px; }
+.philosophyNote > svg { width: 75px; height: 70px; }
+.philosophyNote > span { font-family: var(--font-display); font-size: 26px; font-style: italic; line-height: 1.15; transform: rotate(-5deg); }
+.cardBoard { min-height: 600px; display: flex; align-items: center; justify-content: center; position: relative; padding-top: 25px; }
+.cardPeg { position: absolute; top: 12px; left: calc(50% - 4px); height: 8px; width: 8px; border-radius: 50%; background: var(--sage-dark); box-shadow: 1px 2px 2px #34463833; z-index: 3; }
+.hangingCard { width: 256px; background: var(--sage); border: 1px solid var(--line); padding: 15px; position: relative; box-shadow: 9px 16px 20px #3446381c; border-radius: 5px; cursor: grab; touch-action: none; user-select: none; }
+.hangingCard:active { cursor: grabbing; }
+.cordDrawing { position: absolute; inset: 0; height: 100%; width: 100%; color: var(--ink-soft); pointer-events: none; overflow: visible; }
+.cardClip { position: absolute; top: -10px; left: calc(50% - 14px); height: 18px; width: 28px; border: 1px solid var(--ink-soft); border-radius: 8px; background: var(--sand); }
+.cardTop { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.cardTop > svg { width: 21px; height: 28px; }
+.cardTop > p { font-size: 6px; }
+.hangingCard > img { aspect-ratio: 0.95; width: 100%; object-fit: cover; object-position: center 30%; filter: saturate(0.75); pointer-events: none; }
+.cardDetails { padding-top: 20px; }
+.cardDetails > p:first-child { font-family: var(--font-display); font-size: 30px; line-height: 1.1; }
+.cardDetails > p:nth-child(2) { font-size: 6px; margin-top: 6px; }
+.cardDetails > span { display: flex; justify-content: space-between; gap: 10px; font-size: 6px; margin-top: 24px; padding-top: 12px; border-top: 1px solid var(--line); }
+.cardInstructions { position: absolute; bottom: 20px; left: 0; right: 0; display: flex; align-items: center; justify-content: center; gap: 12px; }
+.cardInstructions > p { font-size: 8px; display: flex; gap: 8px; align-items: center; }
+.cardInstructions > button { min-height: 24px; padding-inline: 3px; }
+.journey { background: var(--sand); padding-block: 85px; }
+.journeyHeading { display: flex; align-items: flex-end; justify-content: space-between; gap: 70px; }
+.journeyHeading h2 { font-size: clamp(58px,5.8vw,90px); margin-top: 30px; }
+.journeyHeading h2 em { font-weight: 400; }
+.journeyHeading > p { max-width: 235px; color: var(--ink-soft); font-size: 11px; }
+.journeyGrid { display: grid; grid-template-columns: 0.85fr 1.5fr; gap: 12%; margin-top: 65px; }
+.education { padding: 30px; border: 1px solid var(--line); align-self: start; }
+.education > p:first-child { font-size: 7px; }
+.education h3 { font-size: 40px; margin-top: 27px; }
+.education > p:nth-of-type(2) { font-size: 11px; color: var(--ink-soft); margin-top: 15px; max-width: 200px; }
+.education > span { display: block; margin-top: 15px; font-size: 11px; }
+.education > div { border-top: 1px solid var(--line); margin-top: 30px; padding-top: 25px; }
+.education > div > p:first-child { font-size: 7px; }
+.education > div > p:last-child { font-size: 10px; margin-top: 10px; }
+.education > a { margin-top: 25px; width: 100%; font-size: 9px; gap: 15px; }
+.experienceList > p { font-size: 7px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+.experienceItem { border-bottom: 1px solid var(--line); }
+.experienceItem > button { width: 100%; padding: 25px 0; border-radius: 0; align-items: flex-start; gap: 20px; text-align: left; background: none; white-space: normal; }
+.experienceItem > button > span:first-child { font-size: 7px; line-height: 2; color: var(--ink-soft); }
+.experienceItem > button > span:nth-child(2) { flex: 1; }
+.experienceItem h3 { font-size: 30px; line-height: 1.1; }
+.experienceItem > button > span:nth-child(2) > p { font-size: 6px; margin-top: 10px; }
+.experienceItem > button > svg { margin-top: 2px; }
+.experienceDetail { font-size: 11px; color: var(--ink-soft); margin: -4px 30px 25px; max-width: 370px; animation: open 250ms var(--ease-out); }
+.toolkit { background: var(--sage); padding-block: 90px; }
+.toolkitInner { display: grid; grid-template-columns: 1fr 1.2fr; gap: 10%; }
+.toolkit h2 { font-size: clamp(55px,5.3vw,83px); margin-top: 30px; }
+.toolkit h2 em { font-weight: 400; }
+.toolkitInner > div:first-child > p:last-child { color: var(--ink-soft); max-width: 290px; font-size: 11px; margin-top: 25px; }
+.softwareGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 30px; }
+.softwareGrid > div { border-bottom: 1px solid var(--line); padding-block: 20px; display: flex; gap: 15px; align-items: center; }
+.softwareGrid > div > p { font-size: 7px; color: var(--ink-soft); }
+.softwareGrid h3 { font-size: 31px; }
+.aboutCta { text-align: center; padding-block: 100px; }
+.aboutCta > p { font-size: 8px; }
+.aboutCta h2 { font-size: clamp(60px,6.7vw,105px); margin-top: 30px; }
+.aboutCta h2 em { font-weight: 400; }
+.aboutCta > a { margin-top: 35px; font-size: 11px; }
+@keyframes open { from { opacity: 0; translate: 0 -5px; } to { opacity: 1; translate: 0 0; } }
+@media (max-width: 1050px) {
+  .aboutHeroInner { gap: 7%; min-height: 620px; }
+  .aboutHeroCopy h1 { font-size: 8.6vw; }
+  .aboutHeroCopy > p:nth-of-type(2) { font-size: 11px; }
+  .portraitSignature { font-size: 26px; right: -15px; padding: 12px 20px; }
+  .personalRoomInner { gap: 5%; }
+  .personalRoomInner > div:first-child > h2 { font-size: 6.8vw; }
+  .personalRoomInner > div:first-child > p:nth-of-type(2), .personalRoomInner > div:first-child > p:nth-of-type(3) { font-size: 11px; }
+  .hangingCard { width: 230px; }
+  .cardBoard { min-height: 550px; }
+  .journeyGrid { gap: 7%; grid-template-columns: 0.9fr 1.5fr; }
+  .experienceItem h3 { font-size: 27px; }
+  .education { padding: 25px; }
+  .education h3 { font-size: 34px; }
+  .toolkitInner { gap: 7%; }
+  .softwareGrid { column-gap: 20px; }
+  .softwareGrid h3 { font-size: 27px; }
+}
+@media (max-width: 650px) {
+  .aboutPage { padding-top: 86px; }
+  .aboutHeroInner { display: flex; flex-direction: column; gap: 45px; padding-block: 50px 80px; }
+  .aboutHeroCopy h1 { font-size: clamp(58px,13vw,85px); margin-top: 25px; }
+  .aboutHeroCopy > p:first-child { font-size: 7px; }
+  .aboutHeroCopy > p:nth-of-type(2) { font-size: 11px; margin-top: 23px; }
+  .aboutHeroMeta { gap: 13px; font-size: 6px; }
+  .aboutHeroCopy > a { font-size: 9px; margin-top: 18px; }
+  .portraitFrame { width: 75%; max-width: 300px; margin-left: 5%; }
+  .portraitSignature { font-size: 25px; right: -23px; }
+  .aboutHeroFoot { bottom: 24px; }
+  .aboutHeroFoot > p { font-size: 5.5px; }
+  .personalRoom { padding-block: 60px 30px; }
+  .personalRoomInner { display: flex; flex-direction: column; gap: 0; }
+  .personalRoomInner > div:first-child > h2 { font-size: 13vw; margin-top: 25px; }
+  .personalRoomInner > div:first-child > p:nth-of-type(2), .personalRoomInner > div:first-child > p:nth-of-type(3) { font-size: 11px; margin-top: 22px; }
+  .philosophyNote { margin-top: 25px; }
+  .philosophyNote > span { font-size: 25px; }
+  .cardBoard { min-height: 570px; width: 100%; margin-top: 20px; }
+  .cardPeg { top: 35px; }
+  .hangingCard { width: 245px; }
+  .cardInstructions { bottom: 17px; }
+  .cardInstructions > p { font-size: 7px; }
+  .journey { padding-block: 60px; }
+  .journeyHeading { flex-direction: column; align-items: flex-start; gap: 23px; }
+  .journeyHeading h2 { font-size: 12vw; margin-top: 25px; }
+  .journeyHeading > p { font-size: 10px; max-width: 320px; }
+  .journeyGrid { display: flex; flex-direction: column; gap: 40px; margin-top: 35px; }
+  .education { width: 100%; }
+  .education h3 { font-size: 38px; margin-top: 23px; }
+  .education > p:nth-of-type(2) { max-width: 240px; }
+  .education > div { margin-top: 25px; padding-top: 20px; }
+  .education > a { width: fit-content; gap: 40px; margin-top: 18px; }
+  .experienceList > p { font-size: 6px; padding-bottom: 18px; }
+  .experienceItem > button { padding-block: 23px; gap: 14px; }
+  .experienceItem h3 { font-size: 29px; }
+  .experienceDetail { font-size: 10px; margin-left: 25px; }
+  .toolkit { padding-block: 60px; }
+  .toolkitInner { display: flex; flex-direction: column; gap: 30px; }
+  .toolkit h2 { font-size: 12vw; margin-top: 25px; }
+  .toolkitInner > div:first-child > p:last-child { margin-top: 22px; font-size: 10px; }
+  .softwareGrid { gap: 0 20px; }
+  .softwareGrid > div { padding-block: 20px; gap: 12px; }
+  .softwareGrid h3 { font-size: 30px; }
+  .aboutCta { padding-block: 65px; }
+  .aboutCta > p { font-size: 6px; }
+  .aboutCta h2 { font-size: 13vw; margin-top: 25px; }
+  .aboutCta > a { font-size: 10px; margin-top: 28px; }
+}
+.aboutHeroCopy h1 { font-size: clamp(55px,6.3vw,96px); }
+.aboutHeroCopy > p:first-child,.aboutHeroFoot,.aboutHeroMeta { display: none; }
+.aboutHeroCopy > p:nth-of-type(2) { font-size: 16px; }.aboutHeroCopy > a { font-size: 14px; }
+.personalRoomInner > div:first-child > h2,.journeyHeading h2,.toolkit h2 { font-size: clamp(42px,4.8vw,72px); }
+.personalRoomInner > div:first-child > p:nth-of-type(2),.personalRoomInner > div:first-child > p:nth-of-type(3),.experienceDetail { font-size: 15px; }
+.journeyHeading > p,.toolkitInner > div:first-child > p:last-child { font-size: 15px; }
+.experienceItem h3 { font-size: clamp(20px,2.2vw,32px); }.experienceItem>button { white-space: normal; }
+@media(max-width:650px){.aboutHeroCopy h1{font-size:50px}.personalRoomInner>div:first-child>h2,.journeyHeading h2,.toolkit h2{font-size:42px}.experienceItem h3{font-size:24px}.aboutCta h2{font-size:45px}}

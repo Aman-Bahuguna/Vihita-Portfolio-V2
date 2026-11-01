@@ -1,0 +1,3 @@
+.transition { pointer-events: none; position: fixed; inset: 0; z-index: 110; display: flex; }
+.transition > div { width: 100%; background: var(--landing-panel); transform: scaleY(0); transform-origin: top; }
+@keyframes drawDoor { to { stroke-dashoffset: 0; } }

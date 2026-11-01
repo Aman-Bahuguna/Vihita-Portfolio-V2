@@ -1,0 +1,15 @@
+.cursor { --cursor-color: var(--landing-accent-text); --cursor-surface: var(--landing-bg); position: fixed; top: 0; left: 0; width: 0; height: 0; z-index: 2100; pointer-events: none; opacity: 0; will-change: transform; }
+.cursor[data-visible='true'] { opacity: 1; }
+.point { position: absolute; left: calc(-1 * var(--space-1)); top: calc(-1 * var(--space-1)); width: var(--space-2); height: var(--space-2); border-radius: var(--radius-pill); background: var(--cursor-color); border: 1px solid var(--ink); box-shadow: 0 0 0 1px var(--white); transition: transform 180ms var(--ease-out), background-color 180ms; }
+.follower { position: absolute; width: 0; height: 0; will-change: transform; }
+.halo { position: absolute; left: calc(-1 * var(--space-4)); top: calc(-1 * var(--space-4)); width: var(--space-6); height: var(--space-6); border: 1px solid var(--cursor-color); border-radius: var(--radius-pill); background: color-mix(in srgb, var(--cursor-surface) 12%, transparent); box-shadow: 0 0 0 1px var(--cursor-surface); transition: transform 220ms var(--ease-out), opacity 180ms; }
+.cursor[data-interactive='true'] .halo { transform: scale(1.3); background: color-mix(in srgb, var(--cursor-color) 10%, transparent); }
+.cursor[data-labeled='true'] .halo { opacity: 0; transform: scale(.8); }
+.cursor[data-pressed='true'] .point { transform: scale(.7); }
+.cursor[data-pressed='true'] .halo { transform: scale(.9); }
+.label { position: absolute; left: var(--space-4); top: calc(-1 * var(--space-4)); padding: var(--space-2) var(--space-3); border: 1px solid var(--cursor-color); border-radius: var(--radius-pill); background: var(--cursor-surface); color: var(--landing-text); box-shadow: 0 0 0 1px var(--cursor-surface); white-space: nowrap; font-size: 10px; letter-spacing: .06em; opacity: 0; transform: translateX(calc(-1 * var(--space-1))); transition: opacity 180ms, transform 220ms var(--ease-out); }
+.cursor[data-labeled='true'] .label { opacity: 1; transform: translateX(0); }
+@media (hover: hover) and (pointer: fine) {
+  :global(html[data-custom-cursor='true']), :global(html[data-custom-cursor='true']) * { cursor: none !important; }
+}
+@media (hover: none), (pointer: coarse) { .cursor { display: none; } }

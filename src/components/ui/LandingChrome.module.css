@@ -1,0 +1,59 @@
+.footer { --landing-bg: var(--footer-bg); --landing-panel: var(--footer-panel); --landing-text: var(--footer-text); --landing-muted: var(--footer-muted); --landing-line: var(--footer-line); --landing-accent-text: var(--primary); --brand-accent-filter: none; position: sticky; bottom: 0; z-index: 0; padding-block: 50px 110px; background: var(--landing-bg); color: var(--landing-text); overflow: hidden; }
+.footer :focus-visible, .navigation :focus-visible, .controls :focus-visible { outline-color: var(--landing-accent-text); }
+.footerTop { display: flex; align-items: center; gap: 45px; justify-content: space-between; }
+.brand { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.brand > img { height: 36px; width: 29px; object-fit: contain; }
+.brand > span { font-size: 18px; font-weight: 550; letter-spacing: -.035em; }
+.footerLinks { display: flex; gap: 30px; align-items: center; margin-left: auto; }
+.footerLinks > a { display: flex; gap: 12px; align-items: center; color: var(--landing-muted); font-size: 12px; }
+.footerLinks > a:hover { color: var(--landing-accent-text); }
+.backTop { position: relative; width: 56px; height: 56px; min-height: 56px; background: transparent; border: 0; color: var(--landing-text); border-radius: 50%; }
+.backTop > svg:first-child { position: absolute; inset: 0; width: 56px; height: 56px; transform: rotate(-90deg); }
+.backTop > svg:last-child { width: 21px; height: 21px; transition: transform 250ms var(--ease-out); }
+.backTop:hover { background: var(--landing-panel); }
+.backTop:hover > svg:first-child { transform: rotate(-90deg); }
+.backTop:hover > svg:last-child { transform: translateY(-3px); }
+.progressTrack { stroke: var(--landing-line); stroke-width: 1; }
+.progressFill { stroke: var(--landing-accent-text); stroke-width: 1.5; }
+.footerName { font-size: clamp(36px,8.2vw,140px); line-height: .95; letter-spacing: -.07em; font-weight: 650; margin-top: 50px; white-space: nowrap; color: var(--landing-text); }
+.footerBottom { display: flex; gap: 25px; align-items: center; justify-content: space-between; border-top: 1px solid var(--landing-line); padding-top: 20px; margin-top: 35px; }
+.footerBottom > p { font-size: 11px; color: var(--landing-muted); }
+.footerBottom > a { display: inline-flex; align-items: center; gap: var(--space-1); font-size: 11px; color: var(--landing-muted); }
+.footerBottom > a:hover { color: var(--landing-accent-text); }
+.navigation > button { background: var(--landing-bg); border: 1px solid var(--landing-line); color: var(--landing-text); border-radius: 0; height: 44px; box-shadow: none; }
+.navigation > button:hover { background: var(--landing-panel); }
+.navigation > button > svg:first-child { color: var(--landing-accent-text); }
+.navigation > button > span:first-of-type { font-size: 12px; }
+.navigation > button i { background: var(--landing-line); }
+.navigation > button i[data-active] { background: var(--landing-accent); }
+.navigation > div { background: var(--landing-bg); color: var(--landing-text); border-color: var(--landing-line); }
+.navigation > div > div:first-child p { font-size: 11px; color: var(--landing-muted); }
+.navigation > div > div:first-child button { background: transparent; color: var(--landing-text); }
+.navigation > div > p:first-of-type { font-size: 28px; font-weight: 550; letter-spacing: -.045em; }
+.navigation > div > p:last-child { font-size: 10px; text-transform: none; letter-spacing: 0; color: var(--landing-muted); }
+.navigation nav { border-color: var(--landing-line); }
+.navigation nav > a:nth-child(n) { background: var(--landing-panel); border-color: var(--landing-line); }
+.navigation nav > a:nth-child(n):hover { background: var(--landing-panel-raised); }
+.navigation nav > a:nth-child(n)[aria-current='location'] { background: var(--landing-accent); color: var(--landing-accent-ink); }
+.navigation nav > a > strong { font-size: 19px; font-weight: 500; }
+.navigation nav > a > small { font-size: 10px; color: inherit; opacity: .7; }
+.navigation nav > a > span { color: inherit; }
+.controls > button { background: var(--landing-bg); color: var(--landing-text); border-radius: 0; border-color: var(--landing-line); box-shadow: none; }
+.controls > button:hover { background: var(--landing-panel); }
+.controls > button > span { font-size: 11px; }
+.controls > button > svg { color: var(--landing-accent-text); }
+.controls > button { gap: var(--space-2); border-radius: var(--radius-pill); }
+.controls > button[aria-pressed='true'] { background: var(--landing-accent); color: var(--landing-accent-ink); border-color: var(--landing-accent); }
+.controls > button[aria-pressed='true'] > svg { color: inherit; }
+@media (max-width: 850px) { .footerTop { gap: 25px; flex-wrap: wrap; }.footerLinks { order: 3; margin-left: 0; width: 100%; }.backTop { margin-left: auto; }.footerName { margin-top: 35px; }.footerBottom > p:nth-child(2) { display: none; } }
+@media (max-width: 650px) {
+  .footer { padding-block: 35px 105px; }
+  .brand > span { font-size: 17px; }
+  .footerLinks { gap: 22px; justify-content: space-between; }
+  .footerLinks > a { font-size: 11px; gap: 7px; }
+  .footerName { font-size: clamp(29px,8.2vw,50px); }
+  .footerBottom { margin-top: 25px; padding-top: 18px; gap: 15px; }
+  .footerBottom > p { font-size: 10px; }
+  .navigation > button { height: 40px; }
+  .navigation > button > span:first-of-type { font-size: 11px; }
+}
